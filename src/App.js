@@ -7,6 +7,7 @@ import SchedulerTask from './components/SchedulerTask'
 import Concurrent from './components/ConcurrentInput'
 import Diff from './components/Diff'
 import PropsDiff from './components/PropsDiff'
+import ClassCpnt from './components/ClassCpnt'
 import Hooks from "./components/Hooks";
 import EventDemo from "./components/EventDemo";
 import ContextDemo from "./components/Context";
@@ -24,6 +25,7 @@ function App() {
   // return <EventDemo/>
 
   // return <Hooks/>
+  return <ClassCpnt/>
   // fiber树
   // return (
   //   <div className="App">
@@ -36,7 +38,7 @@ function App() {
   // return <SchedulerTask/>
 
   // 高优先级插队
-  return <TasksWithDifferentPriorities/>
+  // return <TasksWithDifferentPriorities/>
 
   // context
   // return <ContextDemo/>

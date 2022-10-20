@@ -14,8 +14,11 @@ const UseEffectExp = () => {
             console.log('destory2');
         }
     }, [])
+    const handleClick = () => {
+        setText(text)
+    }
     return <div>
-        <button onClick={() => setText(text + 1)}>{text}</button>
+        <button onClick={handleClick}>{text}</button>
         useEffect
     </div>
 }

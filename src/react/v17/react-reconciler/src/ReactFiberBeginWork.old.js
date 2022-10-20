@@ -3107,7 +3107,6 @@ function beginWork(
   if (current !== null) {
     const oldProps = current.memoizedProps;
     const newProps = workInProgress.pendingProps;
-
     if (
       oldProps !== newProps ||
       hasLegacyContextChanged() ||
